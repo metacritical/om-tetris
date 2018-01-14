@@ -1,0 +1,30 @@
+/* some style */
+
+body { 
+    background-color : darkslategray;
+    color: powderblue;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+q {
+    quotes: "\00ab" "\00bb";
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+#surrounding-border {
+    border: 4px;
+    border-color: slategrey;
+    border-style: solid;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+
