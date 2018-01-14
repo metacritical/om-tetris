@@ -1,39 +1,18 @@
-# lab-notebook
+# OM-TETRIS
 
-FIXME: Write a one-line description of your library/project.
+Game of tetris written in clojure and a bit of Om/Cljs.
 
-## Overview
+I agree i shouldnt have used om/cljs since it keeps changing and it is bad compared 
+to reagent which is simple and works. But i used Om/cljs just to see what is all the fuss 
+about.
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
-
-## Setup
+Writing Tetris in clojurescript is lot of Fun. Yes fun is important, those of you think fun 
+i not important are not having a good time writing code.
 
 To get an interactive development environment run:
 
     lein figwheel
 
-and open your browser at [localhost:3449](http://localhost:3449/).
-This will auto compile and send all changes to the browser without the
-need to reload. After the compilation process is complete, you will
-get a Browser Connected REPL. An easy way to try it is:
+Copyright © 2018
 
-    (js/alert "Am I connected?")
-
-and you should see an alert in the browser window.
-
-To clean all compiled files:
-
-    lein clean
-
-To create a production build run:
-
-    lein do clean, cljsbuild once min
-
-And open your browser in `resources/public/index.html`. You will not
-get live reloading, nor a REPL. 
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
+Distributed under the WTFPL Licence 1.0..
